@@ -57,7 +57,7 @@ const SignupScreen = (props: ScreenProps) => {
         />
       </View>
       <Button
-        title="Done"
+        title="Signup"
         onPress={() => {
           signup(userName);
           navigation.navigate('Home');
