@@ -11,7 +11,22 @@
     "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"],
+      "_assets/*": ["./src/assets/*"],
+      "_components": ["./src/components"],
+      "_config": ["./src/config"],
+      "_context/*": ["./src/context/*"],
+      "_hooks/*": ["./src/hooks/*"],
+      "_i18n": ["./src/i18n"],
+      "_navigation/*": ["./src/navigation/*"],
+      "_screens/*": ["./src/screens/*"],
+      "_services": ["./src/services"],
+      "_styles": ["./src/styles"],
+      "_types": ["./src/types"],
+      "_utils": ["./src/utils"]
+    }
   },
   "exclude": [
     "node_modules",
