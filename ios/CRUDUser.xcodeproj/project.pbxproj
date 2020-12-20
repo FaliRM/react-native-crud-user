@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ReactNativeTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeTemplateTests.m */; };
+		00E356F31AD99517003FC87E /* CRUDUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CRUDUserTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		15A1CA2609F932A3DEF59FE5 /* libPods-ReactNativeTemplate-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D455781F1DE9AEEDE682D0D1 /* libPods-ReactNativeTemplate-tvOSTests.a */; };
-		25E0DEECC323274DCF9CEA9B /* libPods-ReactNativeTemplate-ReactNativeTemplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B13BA7658FE709258F065C5 /* libPods-ReactNativeTemplate-ReactNativeTemplateTests.a */; };
+		15A1CA2609F932A3DEF59FE5 /* libPods-CRUDUser-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D455781F1DE9AEEDE682D0D1 /* libPods-CRUDUser-tvOSTests.a */; };
+		25E0DEECC323274DCF9CEA9B /* libPods-CRUDUser-CRUDUserTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B13BA7658FE709258F065C5 /* libPods-CRUDUser-CRUDUserTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* ReactNativeTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeTemplateTests.m */; };
-		418E819E4C4A4FE1887278BC /* libPods-ReactNativeTemplate-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF6614473C90CA51341DC1B /* libPods-ReactNativeTemplate-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* CRUDUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CRUDUserTests.m */; };
+		418E819E4C4A4FE1887278BC /* libPods-CRUDUser-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF6614473C90CA51341DC1B /* libPods-CRUDUser-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E7829D10DCD1E6428B61E986 /* libPods-ReactNativeTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1538ABF7F3E5550108D70CF5 /* libPods-ReactNativeTemplate.a */; };
+		E7829D10DCD1E6428B61E986 /* libPods-CRUDUser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1538ABF7F3E5550108D70CF5 /* libPods-CRUDUser.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ReactNativeTemplate;
+			remoteInfo = CRUDUser;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "ReactNativeTemplate-tvOS";
+			remoteInfo = "CRUDUser-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* ReactNativeTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* CRUDUserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRUDUserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ReactNativeTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeTemplateTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ReactNativeTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativeTemplate/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactNativeTemplate/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeTemplate/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeTemplate/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeTemplate/main.m; sourceTree = "<group>"; };
-		1538ABF7F3E5550108D70CF5 /* libPods-ReactNativeTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A65F27B99119C2B94907568 /* Pods-ReactNativeTemplate-ReactNativeTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate-ReactNativeTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate-ReactNativeTemplateTests/Pods-ReactNativeTemplate-ReactNativeTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1ED0DEDCEE7F31F48D417D56 /* Pods-ReactNativeTemplate-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate-tvOS/Pods-ReactNativeTemplate-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* ReactNativeTemplate-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNativeTemplate-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* ReactNativeTemplate-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNativeTemplate-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38A4DEC910EF15A0785BF513 /* Pods-ReactNativeTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate/Pods-ReactNativeTemplate.debug.xcconfig"; sourceTree = "<group>"; };
-		3B13BA7658FE709258F065C5 /* libPods-ReactNativeTemplate-ReactNativeTemplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTemplate-ReactNativeTemplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6495A53CB3D3998B0869AE6B /* Pods-ReactNativeTemplate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate-tvOS/Pods-ReactNativeTemplate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeTemplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		876F1A6B537EA8C3B338F094 /* Pods-ReactNativeTemplate-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate-tvOSTests/Pods-ReactNativeTemplate-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		9799BC065489948BC904F6A3 /* Pods-ReactNativeTemplate-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate-tvOSTests/Pods-ReactNativeTemplate-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AFF6614473C90CA51341DC1B /* libPods-ReactNativeTemplate-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTemplate-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C56D7B9C6099373BBEBBEA2C /* Pods-ReactNativeTemplate-ReactNativeTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate-ReactNativeTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate-ReactNativeTemplateTests/Pods-ReactNativeTemplate-ReactNativeTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
-		D3EB2578B21CA089CBE4974F /* Pods-ReactNativeTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate/Pods-ReactNativeTemplate.release.xcconfig"; sourceTree = "<group>"; };
-		D455781F1DE9AEEDE682D0D1 /* libPods-ReactNativeTemplate-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTemplate-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* CRUDUserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRUDUserTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* CRUDUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRUDUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CRUDUser/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CRUDUser/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CRUDUser/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CRUDUser/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CRUDUser/main.m; sourceTree = "<group>"; };
+		1538ABF7F3E5550108D70CF5 /* libPods-CRUDUser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRUDUser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A65F27B99119C2B94907568 /* Pods-CRUDUser-CRUDUserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRUDUser-CRUDUserTests.debug.xcconfig"; path = "Target Support Files/Pods-CRUDUser-CRUDUserTests/Pods-CRUDUser-CRUDUserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1ED0DEDCEE7F31F48D417D56 /* Pods-CRUDUser-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRUDUser-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CRUDUser-tvOS/Pods-CRUDUser-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* CRUDUser-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CRUDUser-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* CRUDUser-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CRUDUser-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A4DEC910EF15A0785BF513 /* Pods-CRUDUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRUDUser.debug.xcconfig"; path = "Target Support Files/Pods-CRUDUser/Pods-CRUDUser.debug.xcconfig"; sourceTree = "<group>"; };
+		3B13BA7658FE709258F065C5 /* libPods-CRUDUser-CRUDUserTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRUDUser-CRUDUserTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6495A53CB3D3998B0869AE6B /* Pods-CRUDUser-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRUDUser-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CRUDUser-tvOS/Pods-CRUDUser-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CRUDUser/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		876F1A6B537EA8C3B338F094 /* Pods-CRUDUser-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRUDUser-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CRUDUser-tvOSTests/Pods-CRUDUser-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		9799BC065489948BC904F6A3 /* Pods-CRUDUser-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRUDUser-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CRUDUser-tvOSTests/Pods-CRUDUser-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFF6614473C90CA51341DC1B /* libPods-CRUDUser-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRUDUser-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56D7B9C6099373BBEBBEA2C /* Pods-CRUDUser-CRUDUserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRUDUser-CRUDUserTests.release.xcconfig"; path = "Target Support Files/Pods-CRUDUser-CRUDUserTests/Pods-CRUDUser-CRUDUserTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3EB2578B21CA089CBE4974F /* Pods-CRUDUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRUDUser.release.xcconfig"; path = "Target Support Files/Pods-CRUDUser/Pods-CRUDUser.release.xcconfig"; sourceTree = "<group>"; };
+		D455781F1DE9AEEDE682D0D1 /* libPods-CRUDUser-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRUDUser-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25E0DEECC323274DCF9CEA9B /* libPods-ReactNativeTemplate-ReactNativeTemplateTests.a in Frameworks */,
+				25E0DEECC323274DCF9CEA9B /* libPods-CRUDUser-CRUDUserTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7829D10DCD1E6428B61E986 /* libPods-ReactNativeTemplate.a in Frameworks */,
+				E7829D10DCD1E6428B61E986 /* libPods-CRUDUser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418E819E4C4A4FE1887278BC /* libPods-ReactNativeTemplate-tvOS.a in Frameworks */,
+				418E819E4C4A4FE1887278BC /* libPods-CRUDUser-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15A1CA2609F932A3DEF59FE5 /* libPods-ReactNativeTemplate-tvOSTests.a in Frameworks */,
+				15A1CA2609F932A3DEF59FE5 /* libPods-CRUDUser-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ReactNativeTemplateTests */ = {
+		00E356EF1AD99517003FC87E /* CRUDUserTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ReactNativeTemplateTests.m */,
+				00E356F21AD99517003FC87E /* CRUDUserTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ReactNativeTemplateTests;
+			path = CRUDUserTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -125,20 +125,20 @@
 		048048F8C5373114DDCC0C95 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				38A4DEC910EF15A0785BF513 /* Pods-ReactNativeTemplate.debug.xcconfig */,
-				D3EB2578B21CA089CBE4974F /* Pods-ReactNativeTemplate.release.xcconfig */,
-				1A65F27B99119C2B94907568 /* Pods-ReactNativeTemplate-ReactNativeTemplateTests.debug.xcconfig */,
-				C56D7B9C6099373BBEBBEA2C /* Pods-ReactNativeTemplate-ReactNativeTemplateTests.release.xcconfig */,
-				1ED0DEDCEE7F31F48D417D56 /* Pods-ReactNativeTemplate-tvOS.debug.xcconfig */,
-				6495A53CB3D3998B0869AE6B /* Pods-ReactNativeTemplate-tvOS.release.xcconfig */,
-				9799BC065489948BC904F6A3 /* Pods-ReactNativeTemplate-tvOSTests.debug.xcconfig */,
-				876F1A6B537EA8C3B338F094 /* Pods-ReactNativeTemplate-tvOSTests.release.xcconfig */,
+				38A4DEC910EF15A0785BF513 /* Pods-CRUDUser.debug.xcconfig */,
+				D3EB2578B21CA089CBE4974F /* Pods-CRUDUser.release.xcconfig */,
+				1A65F27B99119C2B94907568 /* Pods-CRUDUser-CRUDUserTests.debug.xcconfig */,
+				C56D7B9C6099373BBEBBEA2C /* Pods-CRUDUser-CRUDUserTests.release.xcconfig */,
+				1ED0DEDCEE7F31F48D417D56 /* Pods-CRUDUser-tvOS.debug.xcconfig */,
+				6495A53CB3D3998B0869AE6B /* Pods-CRUDUser-tvOS.release.xcconfig */,
+				9799BC065489948BC904F6A3 /* Pods-CRUDUser-tvOSTests.debug.xcconfig */,
+				876F1A6B537EA8C3B338F094 /* Pods-CRUDUser-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ReactNativeTemplate */ = {
+		13B07FAE1A68108700A75B9A /* CRUDUser */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -149,7 +149,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ReactNativeTemplate;
+			name = CRUDUser;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -157,10 +157,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				1538ABF7F3E5550108D70CF5 /* libPods-ReactNativeTemplate.a */,
-				3B13BA7658FE709258F065C5 /* libPods-ReactNativeTemplate-ReactNativeTemplateTests.a */,
-				AFF6614473C90CA51341DC1B /* libPods-ReactNativeTemplate-tvOS.a */,
-				D455781F1DE9AEEDE682D0D1 /* libPods-ReactNativeTemplate-tvOSTests.a */,
+				1538ABF7F3E5550108D70CF5 /* libPods-CRUDUser.a */,
+				3B13BA7658FE709258F065C5 /* libPods-CRUDUser-CRUDUserTests.a */,
+				AFF6614473C90CA51341DC1B /* libPods-CRUDUser-tvOS.a */,
+				D455781F1DE9AEEDE682D0D1 /* libPods-CRUDUser-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,9 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ReactNativeTemplate */,
+				13B07FAE1A68108700A75B9A /* CRUDUser */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ReactNativeTemplateTests */,
+				00E356EF1AD99517003FC87E /* CRUDUserTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				048048F8C5373114DDCC0C95 /* Pods */,
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ReactNativeTemplate.app */,
-				00E356EE1AD99517003FC87E /* ReactNativeTemplateTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* ReactNativeTemplate-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* ReactNativeTemplate-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* CRUDUser.app */,
+				00E356EE1AD99517003FC87E /* CRUDUserTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* CRUDUser-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* CRUDUser-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ReactNativeTemplateTests */ = {
+		00E356ED1AD99517003FC87E /* CRUDUserTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeTemplateTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CRUDUserTests" */;
 			buildPhases = (
 				A2DE0D1C47546AAC0981A385 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ReactNativeTemplateTests;
-			productName = ReactNativeTemplateTests;
-			productReference = 00E356EE1AD99517003FC87E /* ReactNativeTemplateTests.xctest */;
+			name = CRUDUserTests;
+			productName = CRUDUserTests;
+			productReference = 00E356EE1AD99517003FC87E /* CRUDUserTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ReactNativeTemplate */ = {
+		13B07F861A680F5B00A75B9A /* CRUDUser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeTemplate" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CRUDUser" */;
 			buildPhases = (
 				0C1E726CBB5F65BE8ED29F71 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = ReactNativeTemplate;
-			productName = ReactNativeTemplate;
-			productReference = 13B07F961A680F5B00A75B9A /* ReactNativeTemplate.app */;
+			name = CRUDUser;
+			productName = CRUDUser;
+			productReference = 13B07F961A680F5B00A75B9A /* CRUDUser.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* ReactNativeTemplate-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* CRUDUser-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeTemplate-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CRUDUser-tvOS" */;
 			buildPhases = (
 				A359A1416911F8EDA0BCAD0E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReactNativeTemplate-tvOS";
-			productName = "ReactNativeTemplate-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* ReactNativeTemplate-tvOS.app */;
+			name = "CRUDUser-tvOS";
+			productName = "CRUDUser-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* CRUDUser-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* ReactNativeTemplate-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* CRUDUser-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeTemplate-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CRUDUser-tvOSTests" */;
 			buildPhases = (
 				D140943520598EE15B63BF89 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "ReactNativeTemplate-tvOSTests";
-			productName = "ReactNativeTemplate-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* ReactNativeTemplate-tvOSTests.xctest */;
+			name = "CRUDUser-tvOSTests";
+			productName = "CRUDUser-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* CRUDUser-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeTemplate" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CRUDUser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ReactNativeTemplate */,
-				00E356ED1AD99517003FC87E /* ReactNativeTemplateTests */,
-				2D02E47A1E0B4A5D006451C7 /* ReactNativeTemplate-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* ReactNativeTemplate-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* CRUDUser */,
+				00E356ED1AD99517003FC87E /* CRUDUserTests */,
+				2D02E47A1E0B4A5D006451C7 /* CRUDUser-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* CRUDUser-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -383,7 +383,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTemplate/Pods-ReactNativeTemplate-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CRUDUser/Pods-CRUDUser-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -392,7 +392,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTemplate/Pods-ReactNativeTemplate-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CRUDUser/Pods-CRUDUser-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0C1E726CBB5F65BE8ED29F71 /* [CP] Check Pods Manifest.lock */ = {
@@ -410,7 +410,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeTemplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CRUDUser-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -437,7 +437,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTemplate-ReactNativeTemplateTests/Pods-ReactNativeTemplate-ReactNativeTemplateTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CRUDUser-CRUDUserTests/Pods-CRUDUser-CRUDUserTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -446,7 +446,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTemplate-ReactNativeTemplateTests/Pods-ReactNativeTemplate-ReactNativeTemplateTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CRUDUser-CRUDUserTests/Pods-CRUDUser-CRUDUserTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A2DE0D1C47546AAC0981A385 /* [CP] Check Pods Manifest.lock */ = {
@@ -464,7 +464,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeTemplate-ReactNativeTemplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CRUDUser-CRUDUserTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -486,7 +486,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeTemplate-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CRUDUser-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -508,7 +508,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeTemplate-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CRUDUser-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ReactNativeTemplateTests.m in Sources */,
+				00E356F31AD99517003FC87E /* CRUDUserTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* ReactNativeTemplateTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* CRUDUserTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ReactNativeTemplate */;
+			target = 13B07F861A680F5B00A75B9A /* CRUDUser */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* ReactNativeTemplate-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* CRUDUser-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A65F27B99119C2B94907568 /* Pods-ReactNativeTemplate-ReactNativeTemplateTests.debug.xcconfig */;
+			baseConfigurationReference = 1A65F27B99119C2B94907568 /* Pods-CRUDUser-CRUDUserTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ReactNativeTemplateTests/Info.plist;
+				INFOPLIST_FILE = CRUDUserTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeTemplate.app/ReactNativeTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRUDUser.app/CRUDUser";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C56D7B9C6099373BBEBBEA2C /* Pods-ReactNativeTemplate-ReactNativeTemplateTests.release.xcconfig */;
+			baseConfigurationReference = C56D7B9C6099373BBEBBEA2C /* Pods-CRUDUser-CRUDUserTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ReactNativeTemplateTests/Info.plist;
+				INFOPLIST_FILE = CRUDUserTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,19 +645,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeTemplate.app/ReactNativeTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRUDUser.app/CRUDUser";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38A4DEC910EF15A0785BF513 /* Pods-ReactNativeTemplate.debug.xcconfig */;
+			baseConfigurationReference = 38A4DEC910EF15A0785BF513 /* Pods-CRUDUser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = ReactNativeTemplate/Info.plist;
+				INFOPLIST_FILE = CRUDUser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReactNativeTemplate;
+				PRODUCT_NAME = CRUDUser;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +674,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3EB2578B21CA089CBE4974F /* Pods-ReactNativeTemplate.release.xcconfig */;
+			baseConfigurationReference = D3EB2578B21CA089CBE4974F /* Pods-CRUDUser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = ReactNativeTemplate/Info.plist;
+				INFOPLIST_FILE = CRUDUser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +687,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReactNativeTemplate;
+				PRODUCT_NAME = CRUDUser;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1ED0DEDCEE7F31F48D417D56 /* Pods-ReactNativeTemplate-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 1ED0DEDCEE7F31F48D417D56 /* Pods-CRUDUser-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +706,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeTemplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "CRUDUser-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ReactNativeTemplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.CRUDUser-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6495A53CB3D3998B0869AE6B /* Pods-ReactNativeTemplate-tvOS.release.xcconfig */;
+			baseConfigurationReference = 6495A53CB3D3998B0869AE6B /* Pods-CRUDUser-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +734,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeTemplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "CRUDUser-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ReactNativeTemplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.CRUDUser-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9799BC065489948BC904F6A3 /* Pods-ReactNativeTemplate-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 9799BC065489948BC904F6A3 /* Pods-CRUDUser-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +761,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeTemplate-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "CRUDUser-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ReactNativeTemplate-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.CRUDUser-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeTemplate-tvOS.app/ReactNativeTemplate-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRUDUser-tvOS.app/CRUDUser-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 876F1A6B537EA8C3B338F094 /* Pods-ReactNativeTemplate-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 876F1A6B537EA8C3B338F094 /* Pods-CRUDUser-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +788,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeTemplate-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "CRUDUser-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ReactNativeTemplate-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.CRUDUser-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeTemplate-tvOS.app/ReactNativeTemplate-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRUDUser-tvOS.app/CRUDUser-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -919,7 +919,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeTemplateTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CRUDUserTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeTemplate" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CRUDUser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeTemplate-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CRUDUser-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +946,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeTemplate-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CRUDUser-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeTemplate" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CRUDUser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
