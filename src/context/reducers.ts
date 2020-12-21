@@ -16,18 +16,18 @@ const usersReducer: Reducer<User | {}, Actions> = (
 ) => {
   switch (action.type) {
     case CREATE_USER:
-      return [...state, action.payload];
+      return { ...state, ...action.payload };
     case READ_USER:
-      return [...state, action.payload];
+      return { ...state, ...action.payload };
     case UPDATE_USER:
-      return [...state, action.payload];
+      return { ...state, ...action.payload };
     case DELETE_USER:
-      return [];
+      return {};
     default:
       return state;
   }
 };
 
 export default combineReducers({
-  users: usersReducer,
+  user: usersReducer,
 });
