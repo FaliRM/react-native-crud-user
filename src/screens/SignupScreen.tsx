@@ -5,8 +5,8 @@ import { RouteProp } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { Card, Button } from 'react-native-elements';
 
-import { RootStackParamList } from '_types';
-import { createuser } from '_context/actions';
+import { RootStackParamList, User } from '_types';
+import { createuser, updateuser } from '_context/actions';
 import { showAlert } from '_utils';
 import CardItem from '_components/CardItem';
 import { UNIT, textStyles, viewStyles } from '_styles';
@@ -17,23 +17,26 @@ interface ScreenProps {
 }
 
 const SignupScreen = (props: ScreenProps) => {
-  const { navigation } = { ...props };
+  const { navigation, route } = { ...props };
+  const isUpdating = route.params?.isUpdating ?? false;
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const dispatch = useDispatch();
-  const createUser = ({ email, password }) =>
+  const createUser = ({ email, password }: User) =>
+    dispatch(createuser({ email, password }));
+  const updateUser = ({ email, password }: User) =>
     dispatch(createuser({ email, password }));
 
-  const handleSignup = async () => {
+  const handleWrite = async () => {
     if (!email || !password) {
       showAlert({
         alertTitle: 'Missing Fields',
         alertMessage: 'Please ensure to fulfill all the fields',
       });
     }
-
-    createUser({ email, password });
+    if (isUpdating) createUser({ email, password });
+    else updateUser({ email, password });
 
     navigation.navigate('Home');
   };
@@ -46,7 +49,7 @@ const SignupScreen = (props: ScreenProps) => {
     <SafeAreaView style={containerStyle}>
       <Text style={[title, { marginBottom: 30 * UNIT }]}>Signup Screen</Text>
       <Card containerStyle={cardStyle}>
-        <Card.Title>SIGNUP SCREEN</Card.Title>
+        <Card.Title>{isUpdating ? 'UPDATING' : 'SIGNING UP'}</Card.Title>
         <Card.Divider />
         <CardItem
           label="Email"
@@ -63,8 +66,8 @@ const SignupScreen = (props: ScreenProps) => {
         />
       </Card>
       <Button
-        title="Signup"
-        onPress={() => handleSignup()}
+        title={isUpdating ? 'Update' : 'Signup'}
+        onPress={() => handleWrite()}
         buttonStyle={buttonStyle}
       />
     </SafeAreaView>

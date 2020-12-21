@@ -29,7 +29,7 @@ const ProfileScreen = (props: ScreenProps) => {
       <Text style={[title, { marginBottom: 30 * UNIT }]}>Profile Screen</Text>
       <Button
         title="Update"
-        onPress={() => navigation.navigate('Signup')}
+        onPress={() => navigation.navigate('Signup', { isUpdating: true })}
         buttonStyle={buttonStyle}
       />
       <Button
