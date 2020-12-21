@@ -11,7 +11,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Button } from 'react-native-elements';
 
 import { RootStackParamList, User } from '_types';
-import { removestateuser } from '_context/actions';
+import { removestateuser } from '_redux/actions';
 import { UNIT, textStyles, viewStyles } from '_styles';
 
 type ScreenProps = {
