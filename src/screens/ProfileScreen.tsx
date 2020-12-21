@@ -6,7 +6,7 @@ import { StackNavigationProp } from '@react-navigation/stack';
 import { Button } from 'react-native-elements';
 
 import { RootStackParamList } from '_types';
-import { deleteuser } from '_redux/actions';
+import { deleteuser } from '_context/actions';
 import { UNIT, textStyles, viewStyles } from '_styles';
 
 type ScreenProps = {

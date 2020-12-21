@@ -6,7 +6,7 @@ import { StackNavigationProp } from '@react-navigation/stack';
 import { Card, Button } from 'react-native-elements';
 
 import { RootStackParamList, User } from '_types';
-import { readuser } from '_redux/actions';
+import { readuser } from '_context/actions';
 import { showAlert } from '_utils';
 import CardItem from '_components/CardItem';
 import { UNIT, textStyles, viewStyles } from '_styles';

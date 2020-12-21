@@ -17,7 +17,7 @@
       "_assets/*": ["./src/assets/*"],
       "_components/*": ["./src/components/*"],
       "_config": ["./src/config"],
-      "_redux/*": ["./src/redux/*"],
+      "_context/*": ["./src/context/*"],
       "_hooks/*": ["./src/hooks/*"],
       "_i18n": ["./src/i18n"],
       "_navigation/*": ["./src/navigation/*"],
