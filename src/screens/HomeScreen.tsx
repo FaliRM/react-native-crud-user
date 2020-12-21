@@ -1,22 +1,32 @@
 import React from 'react';
-import { SafeAreaView, Button, StyleSheet } from 'react-native';
+import { SafeAreaView, Text, StyleSheet } from 'react-native';
 import { RouteProp } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
+import { Button } from 'react-native-elements';
 
 import { RootStackParamList } from '_types';
+import { UNIT, textStyles, viewStyles } from '_styles';
 
 type ScreenProps = {
-  route: RouteProp<RootStackParamList, 'Signup'>;
-  navigation: StackNavigationProp<RootStackParamList, 'Signup'>;
+  route: RouteProp<RootStackParamList, 'Home'>;
+  navigation: StackNavigationProp<RootStackParamList, 'Home'>;
 };
 
 const HomeScreen = (props: ScreenProps) => {
   const { navigation } = { ...props };
+
+  const { title } = textStyles;
+  const { buttonStyle } = viewStyles;
   const { containerStyle } = styles;
 
   return (
     <SafeAreaView style={containerStyle}>
-      <Button title="Profile" onPress={() => navigation.navigate('Profile')} />
+      <Text style={[title, { marginBottom: 30 * UNIT }]}>Home Screen</Text>
+      <Button
+        title="Profile"
+        onPress={() => navigation.navigate('Profile')}
+        buttonStyle={buttonStyle}
+      />
     </SafeAreaView>
   );
 };
