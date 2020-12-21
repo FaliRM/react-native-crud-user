@@ -15,7 +15,7 @@
     "paths": {
       "*": ["src/*"],
       "_assets/*": ["./src/assets/*"],
-      "_components": ["./src/components"],
+      "_components/*": ["./src/components/*"],
       "_config": ["./src/config"],
       "_context/*": ["./src/context/*"],
       "_hooks/*": ["./src/hooks/*"],
