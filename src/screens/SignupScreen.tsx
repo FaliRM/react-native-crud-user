@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { SafeAreaView, Text, StyleSheet } from 'react-native';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { RouteProp } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { Card, Button } from 'react-native-elements';
 
-import { RootStackParamList, User } from '_types';
+import { RootStackParamList, UserRaw, User } from '_types';
 import { createuser, updateuser } from '_context/actions';
 import { showAlert } from '_utils';
 import CardItem from '_components/CardItem';
@@ -19,25 +19,39 @@ interface ScreenProps {
 const SignupScreen = (props: ScreenProps) => {
   const { navigation, route } = { ...props };
   const isUpdating = route.params?.isUpdating ?? false;
+
+  const user = useSelector((state: { user: User }) => state.user);
+
+  useEffect(() => {
+    if (user.id) {
+      setId(user.id);
+    }
+  }, [user]);
+
+  const dispatch = useDispatch();
+  const createUser = ({ email, password }: UserRaw) =>
+    dispatch(createuser({ email, password }));
+  const updateUser = ({ email, password, id }: User) =>
+    dispatch(updateuser({ email, password, id }));
+
+  const [id, setId] = useState<null | number>(null);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const dispatch = useDispatch();
-  const createUser = ({ email, password }: User) =>
-    dispatch(createuser({ email, password }));
-  const updateUser = ({ email, password }: User) =>
-    dispatch(createuser({ email, password }));
-
   const handleWrite = async () => {
-    if (!email || !password) {
+    if (!email || !password || (isUpdating && !id)) {
       showAlert({
         alertTitle: 'Missing Fields',
         alertMessage: 'Please ensure to fulfill all the fields',
       });
+      return;
     }
-    if (isUpdating) createUser({ email, password });
-    else updateUser({ email, password });
 
+    if (isUpdating && id) {
+      updateUser({ email, password, id });
+    } else {
+      createUser({ email, password });
+    }
     navigation.navigate('Home');
   };
 

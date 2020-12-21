@@ -37,7 +37,6 @@ export const createuser = ({ email, password }: UserRaw) => async (
   dispatch: Dispatch,
 ) => {
   const response = await register({ email, password });
-  console.log('this is the createuser res:', response);
   dispatch({ type: CREATE_USER, payload: response });
 };
 
@@ -45,7 +44,6 @@ export const readuser = ({ email, password }: UserRaw) => async (
   dispatch: Dispatch,
 ) => {
   const response = await login({ email, password });
-  console.log('this is the readuser res:', response);
   dispatch({ type: READ_USER, payload: response });
 };
 
@@ -53,7 +51,6 @@ export const updateuser = ({ email, password, id }: User) => async (
   dispatch: Dispatch,
 ) => {
   const response = await update({ email, password, id });
-  console.log('this is the updateuser res:', response);
   dispatch({ type: UPDATE_USER, payload: response });
 };
 

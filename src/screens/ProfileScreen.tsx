@@ -34,7 +34,10 @@ const ProfileScreen = (props: ScreenProps) => {
       />
       <Button
         title="Remove"
-        onPress={() => deleteUser()}
+        onPress={() => {
+          deleteUser();
+          navigation.navigate('Entry');
+        }}
         buttonStyle={buttonStyle}
       />
     </SafeAreaView>
